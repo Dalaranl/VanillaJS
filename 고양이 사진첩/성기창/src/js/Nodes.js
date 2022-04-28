@@ -53,7 +53,7 @@ export default function Nodes(props) {
 
     if (state.path.length === 1) $element.innerHTML = dom;
     else $element.innerHTML = prev + dom;
-
+    //Event Delegation
     $element.addEventListener("click", onClickElement);
   };
 

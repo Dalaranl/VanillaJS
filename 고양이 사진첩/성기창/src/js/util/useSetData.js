@@ -2,7 +2,7 @@ import { useApi } from "../api/api.js";
 import Loading from "../Loading.js";
 
 export const useSetData = ({ $target, setState }) => {
-  const { get } = useApi();
+  const { get, kakao } = useApi();
 
   const loading = Loading({
     $target,
